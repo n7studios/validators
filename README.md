@@ -33,3 +33,8 @@ A set of UK-centric validation rules (and maybe more) for Laravel 4.
 ```php
 'bank_sort_code' => 'required|sortcode'
 ```
+
+#### National Insurance Number
+```php
+'ni'=>'required|nationalinsurance'
+```

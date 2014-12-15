@@ -25,11 +25,11 @@ class Bank {
      * @param $parameters
      * @return bool
      */
-    public function bankaccount($attribute, $value, $parameters)
+    public function accountNumber($attribute, $value, $parameters)
     {
         // For accounts that only have 7 digits (some banks do)
         // then we'll prepend the string with a leading zero.
-        if (str_len($value) == 7)
+        if (strlen($value) == 7)
             $value = '0' . $value;
 
         $validation_expression = '/^(\d){8}$/i';

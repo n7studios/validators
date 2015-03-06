@@ -1,16 +1,20 @@
 {
     "name": "carve/validators",
-    "description": "A series of validators (mainly for use by UK systems) such as postcode, UK bank account and sort code etc.",
+    "description": "A series of validators (mainly for use by UK systems) such as postcode, UK bank account and sort code etc. Modified for Laravel 5 support.",
     "authors": [
         {
             "name": "Carve",
             "email": "hello@carve.io"
-        }
+        },
+        {
+            "name": "Tim Carr",
+            "email": "tim@n7studios.co.uk"
+        },
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*",
-        "illuminate/validation": "4.2.*"
+        "illuminate/support": "5.*",
+        "illuminate/validation": "5.*"
     },
     "autoload": {
         "psr-4": {

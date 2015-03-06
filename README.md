@@ -1,7 +1,7 @@
 Carve Validators
 ==================
 
-A set of UK-centric validation rules (and maybe more) for Laravel 4.
+A set of UK-centric validation rules (and maybe more) for Laravel 5.
 
 ## Installation
 

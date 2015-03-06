@@ -9,7 +9,7 @@
         {
             "name": "Tim Carr",
             "email": "tim@n7studios.co.uk"
-        },
+        }
     ],
     "require": {
         "php": ">=5.4.0",
